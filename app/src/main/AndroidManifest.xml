@@ -12,6 +12,9 @@
         android:theme="@style/Theme.HotelBookingApp"
         tools:targetApi="31">
         <activity
+            android:name=".PersonalInfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".EmailSignUp"
             android:exported="false" />
         <activity

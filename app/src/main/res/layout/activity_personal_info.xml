@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CBE8CC"
+    tools:context=".Views.PersonalInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#0B74C8"
+        android:text="personal Information"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:id="@+id/editTextPersonName"
+        android:hint="Please enter full name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edEmailAddress"
+        android:hint="Please enter email address" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edPhone"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Please enter your phone number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edAddress"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Please enter your address"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edNum"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Please enter your address"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSave"
+        android:layout_marginTop="20dp"
+        android:text="Save" />
+
+
+
+</LinearLayout>
